@@ -1,0 +1,194 @@
+body{
+    width:100%;
+    height: 100%;
+    font-size: 14px;
+    margin:0px;
+    background-color: #6100c2;
+}
+.header {
+    padding: 5px;
+    text-align: left;
+    background: #686de0;
+    color: white;
+    font-size: 30px;
+}
+.header-content-inner {
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: #520e92;
+}
+h2{
+    font-size: x-large;
+    text-align:center;
+    color: #5465A0;
+}
+li {
+    list-style:none !important;
+    color:#FFF;
+    padding:10px;
+    font-size:20px;
+    text-decoration:none;
+    }
+     
+    nav ul {
+    background-color:#686de0;
+    padding:0;
+    margin:0;
+    }
+     
+    nav ul li {
+    list-style: none;
+    line-height:44px;
+    float:left;
+    background-color:#686de0;
+    }
+     
+    nav ul li a {
+    color:#FFF;
+    padding:10px;
+    font-size:20px;
+    text-decoration:none;
+    }
+     
+    li a:hover {
+    border-bottom:3px #FFF solid;
+    }
+    nav ul li ul { display:none; }
+     
+    nav ul li:hover ul {
+    z-index:99999;
+    display:list-item !important;
+    position:absolute;
+    margin-top:5px;
+    margin-left:-10px;
+    }
+     
+    nav ul li:hover ul li {
+    float:none;
+    }
+
+
+
+    header .header-content {
+        position: relative;
+        width: 100%;
+        padding: 100px 15px 70px;
+        text-align: center;
+    }
+    .btn-lg {
+        padding: 15px 30px;
+    }
+    .btn {
+        border-radius: 300px;
+        text-transform: uppercase;
+    }
+    .btn-primary {
+        border-color: #5465A0;
+        color: #fff;
+        background-color: #5465A0;
+        -webkit-transition: all .35s;
+        -moz-transition: all .35s;
+        transition: all .35s;
+    }
+    .btn-group-lg>.btn, .btn-lg {
+        padding: 10px 16px;
+        font-size: 18px;
+        line-height: 1.3333333;
+        border-radius: 6px;
+    }
+    .btn-primary {
+        color: #fff;
+        background-color: #337ab7;
+        border-color: #2e6da4;
+    }
+    .btn {
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+    a {
+        color: #5465A0;
+        -webkit-transition: all .35s;
+        -moz-transition: all .35s;
+        transition: all .35s;
+    }
+    a {
+        color: #33628b;
+        text-decoration: none;
+    }
+    a {
+        background-color: transparent;
+    }
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    user agent stylesheet
+    a:-webkit-any-link {
+        color: -webkit-link;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    header .header-content {
+        position: relative;
+        width: 100%;
+        padding: 100px 15px 70px;
+        text-align: center;
+    }
+    header {
+        position: relative;
+        width: 100%;
+        min-height: auto;
+        text-align: center;
+        color: #5465A0;
+        background-color: #A0B2ED;
+        background-position: center;
+    }
+    html, body {
+        width: 100%;
+        height: 100%;
+        font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    }
+    html {
+        font-size: 10px;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+    }
+    html {
+        font-family: sans-serif;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+    }
+    :after, :before {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    :after, :before {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    ::selection {
+        text-shadow: none;
+        color: #fff;
+        background: rgb(255, 0, 0);
+    }
